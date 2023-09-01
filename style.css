@@ -1,0 +1,40 @@
+
+input { font:12px arial; }  
+a {  
+ color:#FF637E;  
+ text-decoration:none; 
+}
+a:hover { 
+ text-decoration:underline; 
+}
+#wrapper, #loginform {  
+ margin:0 auto;  
+ padding-bottom:25px;  
+ background:#FFC0CB;  
+ width:720px;  
+ border:1px solid #FF6D87; 
+}
+#loginform { padding-top:18px; }  
+#loginform p { margin: 5px; }  
+#chatbox {  
+ text-align:left;  
+ margin:0 auto;  
+ margin-bottom:25px;  
+ padding:10px;  
+ background:#ffffff;
+ height:400px;  
+ width:700px;  
+ border:1px solid  #FF6D87;  
+ overflow-x:auto;
+ overflow-y:scroll;
+}  
+#usermsg {  
+ width:400px;  
+ border:1px solid  #FF6D87; 
+}
+#submit { width: 60px; }
+.error { color: #ff0000; }
+#menu { padding:12.5px 25px 12.5px 25px; }
+.welcome { float:left; }
+.logout { float:right; }
+.msgln { margin:0 0 2px 0; }
